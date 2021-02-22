@@ -1,4 +1,4 @@
-# RubyTestAutomationFramework
+# Ruby Test Automation Framework
 Project used for Test Automation
 
 Functional Web UI Testing
