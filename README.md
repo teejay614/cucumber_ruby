@@ -1,4 +1,4 @@
-# Ruby Test Automation Framework
+# Cucumber Ruby
 Project used for Test Automation
 
 Functional Web UI Testing
