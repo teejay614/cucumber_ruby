@@ -2,9 +2,7 @@ Before do
   browser = ''
   case ENV['BROWSER'] #case statement to use different browser definitions
   when 'chrome'
-    chrome_path = File.join(File.dirname(__FILE__), '../../browsers/chromedriver2.41.exe')
-    Selenium::WebDriver::Chrome.driver_path = chrome_path
-    browser = Watir::Browser.new :chrome, :unexpectedAlertBehaviour => "accept"
+    browser = Watir::Browser.new :chrome
 
   else
     puts 'Application error! Wrong Browser Environment configuration'
